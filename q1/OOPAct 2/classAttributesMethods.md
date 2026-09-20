@@ -21,16 +21,16 @@ Changes from my previous design:
 | totalDuration | double | Private | Same reasoning as songCount — it's a calculated value that depends on which songs are actually in the playlist, so it should only change through `addSong()`/`removeSong()`. |
 
 ## Updated UML Class Diagram
-![Class Diagram](images/classDiagramSG5.png)
+![Class Diagram](https://github.com/iaicorporal-pixel/9siliconcs3/blob/af990a40490e82750e03b69b4e38d1ce3e622f92/q1/images/classDiagramSG5.png)
 
 ## Python Implementation
-[View Python Source](classImplementation.py)
+[View Python Source](https://github.com/iaicorporal-pixel/9siliconcs3/blob/af990a40490e82750e03b69b4e38d1ce3e622f92/q1/OOPAct%202/classImplementation.py)
 
 ## Test Run
-![Test Run](images/classTestRun.png)
+![Test Run](https://github.com/iaicorporal-pixel/9siliconcs3/blob/af990a40490e82750e03b69b4e38d1ce3e622f92/q1/images/classTestRun.png)
 
 ## Object Diagram
-![Object Diagram](images/objectDiagram.png)
+![Object Diagram](https://github.com/iaicorporal-pixel/9siliconcs3/blob/af990a40490e82750e03b69b4e38d1ce3e622f92/q1/images/objectDiagram.png)
 
 ## Analysis
 
