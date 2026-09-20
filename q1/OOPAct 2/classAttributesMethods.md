@@ -2,7 +2,7 @@
 
 ## Previous Design
 Link to my previous activity:
-[classObjectUML.md](classObjectUML.md)
+[OOPAct1 Activity.md](https://github.com/iaicorporal-pixel/9siliconcs3/blob/af990a40490e82750e03b69b4e38d1ce3e622f92/q1/OOPAct%201/OOPAct1%20Activity.md)
 
 ## Design Revision
 Changes from my previous design:
