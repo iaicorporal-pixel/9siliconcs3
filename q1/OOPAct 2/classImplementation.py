@@ -55,8 +55,8 @@ class Playlist:
 
 
 if __name__ == "__main__":
-    playlist1 = Playlist("Morning Coffee Mix", is_public=True)
-    playlist2 = Playlist("Late Night Study", is_public=False)
+    playlist1 = Playlist("relapse", is_public=True)
+    playlist2 = Playlist("hamilton", is_public=False)
 
     playlist1.addSong("song_001", 3.5)
     playlist1.addSong("song_002", 4.2)
