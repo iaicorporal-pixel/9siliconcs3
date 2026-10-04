@@ -1,9 +1,5 @@
 # Class Relationships: Association and Multiplicity
 
-## Previous Work
-[Part I - Classes and Objects](classObjectUML.md)
-[Part II - Class Attributes and Methods](classAttributesMethods.md)
-
 ## Existing Class
 Class: **Playlist** — a custom collection of songs (name, visibility, song count, total duration).
 
