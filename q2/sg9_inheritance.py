@@ -16,11 +16,10 @@ class Book(Publication):
 class Magazine(Publication):
     def __init__(self, title, author, issue):
         super().__init__(title, author)
-        self.issue = issue  # forgot to make private here oops
+        self.issue = issue 
     def display(self):
         print(f"Title: {self.__title}, Issue: {self.issue}")
 
-# quick test loop
 for item in [Publication("Pub1", "AuthA"), Book("Book1", "AuthB", -5), Magazine("Mag1", "AuthC", 4)]:
     item.display()
     print("-" * 10)
