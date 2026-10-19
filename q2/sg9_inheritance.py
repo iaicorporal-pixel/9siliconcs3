@@ -1,31 +1,26 @@
 class Publication:
     def __init__(self, title, author):
-        self.__title = title     
-        self.__author = author    
-        
-    def show_info(self):
-        print("Title:", self.__title)
-        print("Author:", self.__author)
+        self.__title = title
+        self.__author = author
+    def display(self):
+        print(f"Title: {self.__title}, Author: {self.__author}")
 
 class Book(Publication):
     def __init__(self, title, author, pages):
         super().__init__(title, author)
-        
-        if pages <= 0:
-            print("The number of pages must be positive")
-            self.__pages = 0  
-        else:
-            self.__pages = pages
-
-    def show_info(self):
-        super().show_info()
-        print("Pages:", self.__pages)
+        self.__pages = pages if pages > 0 else print("The number of pages must be positive")
+    def display(self):
+        super().display()
+        print(f"Pages: {self.__pages}")
 
 class Magazine(Publication):
-    def __init__(self, title, author, issue_no):
+    def __init__(self, title, author, issue):
         super().__init__(title, author)
-        self.issue = issue_no  
+        self.issue = issue  # forgot to make private here oops
+    def display(self):
+        print(f"Title: {self.__title}, Issue: {self.issue}")
 
-    def display_mag(self):     
-        print("Mag Name:", self.__title) 
-        print("Issue:", self.issue)
+# quick test loop
+for item in [Publication("Pub1", "AuthA"), Book("Book1", "AuthB", -5), Magazine("Mag1", "AuthC", 4)]:
+    item.display()
+    print("-" * 10)
